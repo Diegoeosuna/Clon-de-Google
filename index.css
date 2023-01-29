@@ -1,0 +1,208 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Menu{
+    height: 48px;
+    font: arial;
+    font-size: 13px;          
+}
+
+.Menu a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: transparent;
+    margin: 0%;
+    padding: 0%;
+    content: 0%;
+}
+
+li{
+    float: right;
+}
+
+li a {
+    display: block;
+    justify-items: center;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+.Menu img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.Menu img:hover{
+    background-color: rgb(218, 217, 217);
+    padding: 7%;
+    box-shadow: 0px 0px 1px black;
+    cursor:pointer
+}
+
+#MenuTexto a{
+    margin-top: 5px;
+    color: #202124;
+}
+
+#MenuTexto:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ImagenGoogle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 25px;
+}
+
+#LogoGoogle{
+    width: 272px;
+    height: auto;
+}
+
+.BarraBusqueda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.BarraCompleta{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    border-radius: 24px;
+    border-color:rgb(192,185,185);
+    padding: 8px 8px 3px 14px;
+}
+
+.Lupa img{
+    padding: 0px 13px 0px 0px;
+}
+
+.Microfono img{
+    padding: 0px 8px;
+}
+
+.Camara img{
+    padding: 0px 8px;
+}
+
+.SearchBar input{
+    width: 443px;
+    height: 34px;
+    margin: -37px 0px 0px;
+    color: black;
+    background-color: transparent;
+    border: 0px solid;
+    padding: 0px;
+}
+
+.BarraCompleta:hover{
+    box-shadow: 1px 1px 10px rgb(203, 203, 203);
+    border: none;
+}
+
+.BarraCompleta img{
+    height: 24px;
+}
+
+.BotSerLuc{
+    display: flex;
+    flex-direction: column;
+    padding: 18px 0px 0px;
+    align-items: center;
+    justify-items: center;
+    height: 80px;
+}
+
+#Search{
+    margin: 11px 4px;
+    padding: 0px 16px;
+    border-radius: 4px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    color: rgb(51, 51, 51);
+    background-color: rgb(246, 246, 246);
+}
+
+#Search:hover{
+    box-shadow: 0px 0px 3px rgb(192,185,185);
+}
+
+#Lucky{
+    margin: 11px 4px;
+    padding: 0px 16px;
+    border-radius: 4px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    color: rgb(51, 51, 51);
+    background-color: rgb(246, 246, 246);
+}
+
+#Lucky:hover{
+    box-shadow: 0px 0px 3px rgb(192,185,185);
+}
+
+.IdiomaOfr{
+    display: flex;
+    flex-direction: column;
+    height: 198px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:  rgb(51, 51, 51);
+}
+
+.IdiomaOfr div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.IdiomaOfr a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.IdiomaOfr a:hover{
+    text-decoration: underline;
+}
+
+.Pais{
+    padding: 15px 25px;
+    background-color: #f1f2f3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #7b7b7b;
+    border-bottom: solid rgba(192, 185, 185, 0.605);
+}
+
+.Terminos{
+    padding: 15px 25px;
+    background-color: #f1f2f3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #7b7b7b;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Terminos a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#Footer a{
+    text-decoration: none;
+    color:#7b7b7b;;
+}
